@@ -1,2 +1,2 @@
 # uREU64
-__micro__(controller) based __R__AM __E__xpansion __U__nit replacement for C__64__/C128
+**micro** (controller) based **R**AM **E**xpansion **U**nit replacement for C**64** / C128
