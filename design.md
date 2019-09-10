@@ -3,7 +3,7 @@
 ## Basic Blocks
 
 ### electrical conversion
-
+The Commodore voltage is 5 V the cartridge logic runs 3.3 V By means of 74xx245 3-state dual supply trancievers we can both level translate and read, write and disconnect from the cartrigde port. probably 5 or 6 ic's are needed.
 
 ### logic
 The idea is to do almost all of the logic in **Firmware** on a relatively cheap microcontroller. 
