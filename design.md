@@ -10,6 +10,7 @@ The idea is to do almost all of the logic in **Firmware** on a relatively cheap 
 
 Options from Microchip/Atmel are
 * ATSAM4S(2|4|8|16)C Cortex-M4 120 MHz SRAM only
+  - 100 pin package does not seem to have enough pins to comfortly asign all signals (and external SRAM)
 * ATSAMS70Q(19|20|21) Cortex-M7 300 MHz SRAM/SDRAM
 * ...
 
