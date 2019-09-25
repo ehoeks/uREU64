@@ -12,7 +12,8 @@ Options from Microchip/Atmel are
 * ATSAM4S(2|4|8|16)C Cortex-M4 120 MHz SRAM only
   - 100 pin package does not seem to have enough pins to comfortly asign all signals (and external SRAM)
 * ATSAMS70Q(19|20|21) Cortex-M7 300 MHz SRAM/SDRAM
-* ...
+* STM32H750 Cortex-M7 480 MHz (Has 1 MByte inter SRAM so can emulate a 128/256/512 kB REU without externel memory)
+  - 100 pin package is enough due to no external ram
 
 
 ### memory
