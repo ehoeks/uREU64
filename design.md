@@ -8,13 +8,14 @@ The Commodore voltage is 5 V the cartridge logic runs 3.3 V By means of 74xx245 
 ### logic
 The idea is to do almost all of the logic in **Firmware** on a relatively cheap microcontroller. 
 
-Options from Microchip/Atmel are
-* ATSAM4S(2|4|8|16)C Cortex-M4 120 MHz SRAM only
+Options are:
+* ~~ATSAM4S(2|4|8|16)C Cortex-M4 120 MHz SRAM only~~
   - 100 pin package does not seem to have enough pins to comfortly asign all signals (and external SRAM)
 * ATSAMS70Q(19|20|21) Cortex-M7 300 MHz SRAM/SDRAM
-* STM32H750 Cortex-M7 480 MHz (Has 1 MByte inter SRAM so can emulate a 128/256/512 kB REU without externel memory)
-  - 100 pin package is enough due to no external ram
-
+* STM32H750VB Cortex-M7 **480 MHz** 
+  - 1024 KByte internal SRAM so can emulate a 128/256/512 kB REU without externel memory
+  - 100 pin LQFP package is enough due to no external ram required
+* NXP i.MX RT Series
 
 ### memory
 One option is to use relatively simple SRAM to provide the large memory pool. This would most likely meet the timing requirements needed.

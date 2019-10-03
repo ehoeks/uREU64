@@ -14,7 +14,7 @@ The goal of this project is to create (the hardware and firmware) for a open sou
 ## References
 * [Commodore REU on Wikipedia](https://en.wikipedia.org/wiki/Commodore_REU)
 * [RAM Expansion Unit on C64-Wiki](https://www.c64-wiki.com/wiki/REU)
-
+* [Safely freezing the C64 on an asynchronous event](https://codebase64.org/lib/exe/fetch.php?media=base:safely_freezing_the_c64.pdf) 
 ## Future extensions (optional)
 * Graphics DMA
   - Block copy DMA (stride, block, etc) copy screen from larger bitmap graphics
